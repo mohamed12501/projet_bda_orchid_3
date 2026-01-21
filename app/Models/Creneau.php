@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Creneau extends Model
 {
+    
     use HasContent;
     protected $table = 'creneau';
     protected $primaryKey = 'id_creneau';
